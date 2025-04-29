@@ -50,8 +50,7 @@ border-radius: 4px;
 ::-webkit-scrollbar-thumb:hover {
 background: #6366F1;
 }
-</style>
-<style>
+
 :where([class^="ri-"])::before { content: "\f3c2"; }
 body {
 font-family: 'Inter', sans-serif;
