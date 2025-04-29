@@ -50,11 +50,12 @@ border-radius: 4px;
 ::-webkit-scrollbar-thumb:hover {
 background: #6366F1;
 }
-</style>
-<style>
+
 :where([class^="ri-"])::before { content: "\f3c2"; }
 body {
-font-family: 'Inter', sans-serif;
+/* font-family: 'Inter', sans-serif; */
+font-family: "Montserrat", sans-serif;
+
 }
 .hero-section {
 background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 65%, rgba(255, 255, 255, 0.1) 100%), url('https://readdy.ai/api/search-image?query=A%20professional%20networking%20scene%20with%20diverse%20group%20of%20students%20and%20professionals%20connecting%20in%20a%20modern%20university%20campus%20environment.%20The%20image%20shows%20a%20gradient%20from%20solid%20white%20on%20the%20left%20to%20a%20transparent%20overlay%20on%20the%20right%2C%20revealing%20a%20beautiful%20campus%20with%20modern%20architecture%2C%20green%20spaces%2C%20and%20people%20engaged%20in%20mentoring%20conversations.%20The%20scene%20portrays%20knowledge%20sharing%20and%20career%20guidance%20with%20a%20bright%2C%20optimistic%20atmosphere.&width=1600&height=800&seq=hero1&orientation=landscape');
